@@ -34,7 +34,7 @@ namespace DummyDataWorker
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             var interval = _config.GetValue<int>("WorkerSettings:InsertIntervalSeconds", 10);
-            var batchSize = _config.GetValue<int>("WorkerSettings:InsertBatchSize", 5);
+            var batchSize = _config.GetValue<int>("WorkerSettings:InsertBatchSize", 1000);
 
             _logger.LogInformation("InsertWorker started. Every {i} seconds, {b} rows will go to SourceTransaction.", interval, batchSize);
 

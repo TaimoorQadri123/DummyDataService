@@ -87,3 +87,4 @@ C:\Users\muhammad.taimoor\source\repos\DummyDataWorker\DummyDataWorker\obj\Debug
 C:\Users\muhammad.taimoor\source\repos\DummyDataWorker\DummyDataWorker\obj\Debug\net8.0\DummyDataWorker.pdb
 C:\Users\muhammad.taimoor\source\repos\DummyDataWorker\DummyDataWorker\obj\Debug\net8.0\DummyDataWorker.genruntimeconfig.cache
 C:\Users\muhammad.taimoor\source\repos\DummyDataWorker\DummyDataWorker\obj\Debug\net8.0\ref\DummyDataWorker.dll
+C:\Users\muhammad.taimoor\source\repos\DummyDataWorker\DummyDataWorker\obj\Debug\net8.0\DummyDataWorker.sourcelink.json

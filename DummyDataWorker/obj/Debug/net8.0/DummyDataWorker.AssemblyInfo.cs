@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DummyDataWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd8ae62028f5c577296adf61e9bbb02f31ffabf9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DummyDataWorker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DummyDataWorker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

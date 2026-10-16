@@ -9,8 +9,12 @@ builder.Services.AddDbContext<WorkerDbContext>(options =>
 
 // builder.Services.AddHostedService<Worker>();   
 //builder.Services.AddHostedService<InsertWorker>();
-builder.Services.AddHostedService<InsertWorker>();   // Service 1
-builder.Services.AddHostedService<SyncWorker>();     // Service 2
+//builder.Services.AddHostedService<InsertWorker>();   // Service 1
+//builder.Services.AddHostedService<SyncWorker>();     // Service 2
+
+builder.Services.AddHostedService<InsertWorker>();      // Service 1
+// builder.Services.AddHostedService<SyncWorker>();     // old
+builder.Services.AddHostedService<BulkSyncWorker>();    // Service 2 (bulk)
 
 var host = builder.Build();
 host.Run();
